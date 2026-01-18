@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Match3">
+      <UniqueIdentifier>{3bdd1e80-2f9b-400e-9512-ca08cba44750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Match3\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Match3\Header Files">
+      <UniqueIdentifier>{6152c2b3-b93b-431d-a1b8-9e54618afdfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Match3\Source Files">
+      <UniqueIdentifier>{bbd7febd-848a-474f-ae7a-e5707ed91e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher">
+      <UniqueIdentifier>{fd1c697f-ae80-4be9-8091-d695c9823748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Launcher\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Battleship">
+      <UniqueIdentifier>{1f03afa3-661f-4f7f-9c57-518c7a6cfe5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MineSweeper">
+      <UniqueIdentifier>{c13394a0-b390-46b9-b983-5f28a8fb8ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MineSweeper\Header Files">
+      <UniqueIdentifier>{ce1e48d4-629a-4505-992b-f713bb4a64b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MineSweeper\Source Files">
+      <UniqueIdentifier>{5120d900-0cef-4861-afa1-e9fd9247d72e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Launcher\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Launcher\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Match3\GameGrid.cpp">
+      <Filter>Match3\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Match3\GameLogic.cpp">
+      <Filter>Match3\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Match3\GameManagers.cpp">
+      <Filter>Match3\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Match3\InputHandler.cpp">
+      <Filter>Match3\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Match3\Match3Game.cpp">
+      <Filter>Match3\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Match3\ScoreManager.cpp">
+      <Filter>Match3\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MineSweeper\DifficultyManager.cpp">
+      <Filter>MineSweeper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MineSweeper\GameState.cpp">
+      <Filter>MineSweeper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MineSweeper\GameStatistics.cpp">
+      <Filter>MineSweeper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MineSweeper\GameTimer.cpp">
+      <Filter>MineSweeper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MineSweeper\InputHandler.cpp">
+      <Filter>MineSweeper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MineSweeper\MineField.cpp">
+      <Filter>MineSweeper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MineSweeper\MineSweeperGame.cpp">
+      <Filter>MineSweeper\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleship\AIPlayer.cpp">
+      <Filter>Battleship</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleship\GameBoard.cpp">
+      <Filter>Battleship</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleship\HumanPlayer.cpp">
+      <Filter>Battleship</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleship\Player.cpp">
+      <Filter>Battleship</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleship\Ship.cpp">
+      <Filter>Battleship</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleship\UserInterface.cpp">
+      <Filter>Battleship</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleship\BattleshipGame.cpp">
+      <Filter>Battleship</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.hpp">
+      <Filter>Launcher\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameButtonBase.hpp">
+      <Filter>Launcher\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Match3\BonusStrategies.hpp">
+      <Filter>Match3\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Match3\GameAlgorithms.hpp">
+      <Filter>Match3\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Match3\GameDataContainer.hpp">
+      <Filter>Match3\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Match3\GameGrid.hpp">
+      <Filter>Match3\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Match3\GameLogic.hpp">
+      <Filter>Match3\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Match3\GameManagers.hpp">
+      <Filter>Match3\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Match3\IBonusStrategy.hpp">
+      <Filter>Match3\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Match3\Match3Game.hpp">
+      <Filter>Match3\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Match3\InputHandler.hpp">
+      <Filter>Match3\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Match3\ScoreManager.hpp">
+      <Filter>Match3\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweeper\DifficultyManager.hpp">
+      <Filter>MineSweeper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweeper\GameCollection.hpp">
+      <Filter>MineSweeper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweeper\GameState.hpp">
+      <Filter>MineSweeper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweeper\GameStatistics.hpp">
+      <Filter>MineSweeper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweeper\GameTimer.hpp">
+      <Filter>MineSweeper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweeper\InputHandler.hpp">
+      <Filter>MineSweeper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweeper\MineField.hpp">
+      <Filter>MineSweeper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweeper\MineSweeperGame.hpp">
+      <Filter>MineSweeper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweeper\StatisticsCalculator.hpp">
+      <Filter>MineSweeper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Battleship\AIPlayer.hpp">
+      <Filter>Battleship</Filter>
+    </ClInclude>
+    <ClInclude Include="Battleship\GameBoard.hpp">
+      <Filter>Battleship</Filter>
+    </ClInclude>
+    <ClInclude Include="Battleship\HumanPlayer.hpp">
+      <Filter>Battleship</Filter>
+    </ClInclude>
+    <ClInclude Include="Battleship\Player.hpp">
+      <Filter>Battleship</Filter>
+    </ClInclude>
+    <ClInclude Include="Battleship\Ship.hpp">
+      <Filter>Battleship</Filter>
+    </ClInclude>
+    <ClInclude Include="Battleship\UserInterface.hpp">
+      <Filter>Battleship</Filter>
+    </ClInclude>
+    <ClInclude Include="Battleship\BattleshipGame.hpp">
+      <Filter>Battleship</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameLauncher.rc">
+      <Filter>Match3\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
